@@ -1,0 +1,58 @@
+body {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 80vh;
+}
+
+#borderimg { 
+    border-style: dotted dashed solid double;
+    border-color: #880B0B;
+    padding: 10px;
+  }
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+}
+
+.btnYes {
+    margin-left: 5vh;
+    width: 120px;
+    height: 80px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    border-style: outset;
+}
+
+.btnYes:hover {
+    background-color: #D1A3D4; /* Green */
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btnNo {
+    margin-left: 30vh;
+    width: 120px;
+    height: 80px;
+    border-radius: 15px;
+    border-style: inset;
+}
+
+.btnNo:hover {
+    background-color: #880B0B; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
